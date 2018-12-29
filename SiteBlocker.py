@@ -1,6 +1,8 @@
 
-host_address = r"Enter the full path of the host file"
+host_address = raw_input("Enter the full path of the host file: ")
 ip_address = r"127.0.0.1"
+host_address = host_address + "\hosts"
+
 
 choice = raw_input("Would you like to block a website, or remove a site from the blocked list? \nEnter B for blocking, or R for removing ")
 blockList = []
